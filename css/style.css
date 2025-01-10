@@ -1,0 +1,87 @@
+/*
+Colors used:
+Primary Color (Green): #26413c;
+Secondary Color (Purple): #805D93;
+Tertiary color (Light blue): #44c0c5
+*/
+
+body {
+    background-color: #f7f7f7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 1.6; 
+    color: #000000;
+  }
+  
+  h1, h2, h3, h4 {
+    line-height: 1.4;
+    color:  #26413c
+  }
+  h1 {
+    font-size: 2.75em;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-size: 2.25em;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 1.75em;
+    font-weight: 700;
+  }
+  h4 {
+    font-size: 1.35em;
+    font-weight: 700;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  a {
+    color: #805D93;
+    text-decoration: none;
+    font-weight: 700;
+  }
+  a:hover,
+  a:focus {
+    color: #805D93; opacity:0.8;
+    text-decoration: underline; 
+  }
+  a:visited { /* visited link */
+    color: #805D93;
+  }
+  a:active { /* selected link */
+    color: #805D93; opacity:0.8;
+  }
+
+  .button {
+    display: inline-block; 
+    background-color: #805D93;
+    color: #ffffff !important;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 100px;
+    transition: 0.2s opacity;
+  }
+  .button:hover {
+    opacity: 0.8; 
+    text-decoration: none;
+  }
+
+  .button.resume {
+    display: inline-block; 
+    background-color: #44c0c5;
+    color: #ffffff !important;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 100px;
+    transition: 0.2s opacity;
+  }
+  .button.resume:hover {
+    opacity: 0.8; /* Reduces the opacity of the button to 80% */
+    text-decoration: none;
+  }
