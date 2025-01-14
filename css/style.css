@@ -5,6 +5,58 @@ Secondary Color (Purple): #805D93;
 Tertiary color (Light blue): #44c0c5
 */
 
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 3px solid #44c0c5;
+  position: relative;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  font-weight: 700;
+}
+
+.hero {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.hero h1 {
+  text-align: center;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.icon {
+  max-width: 32px;
+  display: inline-block;
+}
+
 body {
     background-color: #f7f7f7;
     font-family: 'Montserrat', sans-serif;
@@ -85,3 +137,48 @@ body {
     opacity: 0.8; /* Reduces the opacity of the button to 80% */
     text-decoration: none;
   }
+
+  footer {
+    background-color: #d1d1d1;
+    text-align: center;
+    border-top: 3px solid #44c0c5;
+    padding: 10px 0;
+  }
+
+  footer > div > div > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer > div > div > ul > li {
+    display: inline-block;
+    margin: 0 auto;
+    max-width:32px;
+  }
+
+  main > div > div > div > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  main > div > div > div > ul > li {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  main > div > div > div > div > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  main > div > div > div > div > ul > li {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .project.details {
+    display: inline-block; 
+    background-color: #d1d1d1;
+    padding: 0px 12px;
+    margin: 4px 4px;
+}
