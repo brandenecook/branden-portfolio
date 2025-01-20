@@ -13,7 +13,9 @@ header {
   text-align: center;
   padding: 10px 0;
   border-bottom: 3px solid #44c0c5;
-  position: relative;
+  position: fixed;
+  width: 100%;
+  background-color:#f7f7f7
 }
 
 nav > ul {
@@ -31,7 +33,7 @@ nav > ul > li > a {
 }
 
 .hero {
-  padding: 20px 0;
+  padding: 140px 0 40px 0;
   display: inline-block;
   width: 100%;
   text-align:center;
