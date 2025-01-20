@@ -160,22 +160,22 @@ body {
     max-width:32px;
   }
 
-  main > div > div > div > ul {
+  #expert > div > div > div > ul {
     list-style-type: none;
     padding: 0;
   }
   
-  main > div > div > div > ul > li {
+  #expert > div > div > div > ul > li {
     display: inline-block;
     margin: 0 auto;
   }
 
-  main > div > div > div > div > ul {
+  #expert > div > div > div > div > ul {
     list-style-type: none;
     padding: 0;
   }
   
-  main > div > div > div > div > ul > li {
+  #expert > div > div > div > div > ul > li {
     display: inline-block;
     margin: 0 auto;
   }
