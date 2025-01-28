@@ -10,8 +10,7 @@ Tertiary color (Light blue): #44c0c5
 }
 
 header {
-  text-align: center;
-  padding: 10px 0;
+  padding: 10px 0 4px;
   border-bottom: 3px solid #44c0c5;
   position: fixed;
   width: 100%;
@@ -21,10 +20,7 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav > ul > li > a {
@@ -32,8 +28,41 @@ nav > ul > li > a {
   font-weight: 700;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  padding-right: 0;
+  right: 0;
+  top: 20px;
+  font-size: 20px;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #44c0c5;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
+
 .hero {
-  padding: 140px 0 40px 0;
+  padding: 140px 0 10px 0;
   display: inline-block;
   width: 100%;
   text-align:center;
@@ -215,9 +244,9 @@ body {
 }
 
 /* ==============================
-Medium devices (640px and larger)
+Medium devices (641px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -228,6 +257,23 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
   .col-md-6 {
     width: 50%;
   }
