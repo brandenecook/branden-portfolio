@@ -196,7 +196,7 @@ body {
   
   #expert > div > div > div > ul > li {
     display: inline-block;
-    margin: 0 auto;
+    margin: 5px auto;
   }
 
   #expert > div > div > div > div > ul {
